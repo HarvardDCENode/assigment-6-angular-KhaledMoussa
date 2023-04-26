@@ -1,0 +1,13 @@
+.post {
+  background-color: gold;
+  font-weight: bold;
+  max-width: 210px;
+  margin: 10px;
+  padding: 1%;;
+  border-radius: 10px;
+}
+
+
+h1 {
+  font-weight: bold;
+}

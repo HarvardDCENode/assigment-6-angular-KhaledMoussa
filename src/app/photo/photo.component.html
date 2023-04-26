@@ -1,0 +1,18 @@
+
+<div class="container">
+
+
+  <div class="row">
+    <div class="card-deck col-md-4 ">
+      <div class="post">
+        <p>{{photo.title}}</p>
+        <img  class="card-img-top" [src]= "photo.imageurl" style=" max-height: 200; max-width: 200px;" >
+        <p>{{photo.description}}</p>
+        <button class = "blue" (click)="upVote(photo.title)">Like  <button >{{votes}}</button></button>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>

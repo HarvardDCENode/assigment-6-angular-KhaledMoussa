@@ -1,0 +1,18 @@
+.post {
+  background-color: gold;
+  font-weight: bold;
+  max-width: 210px;
+  margin: 1px;
+  padding: 1%;;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.blue {
+  background-color: #039aeb;
+}
+
+h1 {
+  font-weight: bold;
+}

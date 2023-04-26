@@ -1,0 +1,14 @@
+<h1>{{title}} for {{courseName}}<br>
+  Number of posts shared: {{getNumberOfPhotos}}<br>
+  Most Recent Liked Post: {{mostRecentUpvoted}}
+
+</h1>
+
+  <h1>Greek Heroes Posts</h1>
+
+
+  <app-photo
+  *ngFor='let photo of photoList' [photo]="photo"
+  (upVotedEvent)="handleUpvoted($event)">
+
+  </app-photo>
